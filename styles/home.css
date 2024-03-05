@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.card-img {
+    width: 50%;
+    text-align: center;
+}
+
+.card-img img {
+    height: 100%;
+    width: 100%;
+    width: fit-content;
+    transition: 0.2s ease-in-out;
+    box-shadow: -5px 5px 10px 0 #666;
+    border-radius: 20px;
+}
+
+.card-img img:hover {
+    scale: 1.2;
+    box-shadow: 0 0 0 0;
+}
+.explanation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-left: 25px;
+}
+
+.explanation h1 {
+    font-size: 30px;
+}
+
+.explanation p {
+    font-size: 15px;
+    padding-left: 10px;
+}

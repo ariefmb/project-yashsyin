@@ -4,18 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Login Page</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/login.css" />
     </head>
     <body>
         <div class="navigate">
             <nav>
                 <div class="profile">
                     <div class="photo-profile">
-                        <img src="" alt="" />
+                        <img src="assets/foto/5.jpg" alt="" />
                     </div>
                     <div class="username">
-                        <h1>@avrsama</h1>
-                        <h2>@avrsama</h2>
+                        <h1>@username</h1>
+                        <h2>@username</h2>
                     </div>
                 </div>
                 <div class="menu">
@@ -31,10 +32,25 @@
         </div>
         <div class="container">
             <div class="header">
-                <h1>WEBSITE INFO PUTRA BANGSA</h1>
+                <h1>WEBSITE INFO PUTRI BANGSA</h1>
             </div>
             <div class="page"><h1>Login</h1></div>
-            <div class="content"></div>
+            <div class="content">
+                <h1>Silahkan Login!</h1>
+                <form>
+                    <div class="username">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" />
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" />
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Log in" />
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
