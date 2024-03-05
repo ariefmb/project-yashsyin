@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    display: flex;
+}
+
+.navigate {
+    border: 1px white solid;
+    width: 20%;
+    min-height: 100vh;
+}
+
+nav {
+    border: 1px white solid;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
+.profile {
+    border: 1px white solid;
+    width: 100%;
+    height: 25%;
+}
+
+.menu {
+    width: 100%;
+    height: 80%;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover {
+    background-color: tomato; /*ntar ganti ya!!!*/
+}
+
+a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    border: 1px white solid;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    border: 1px white solid;
+    width: 100%;
+    height: 20%;
+}
+
+.page {
+    border: 1px white solid;
+    width: 100%;
+    height: 10%;
+}
