@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    height: 70%;
+}
+
+.card {
+    height: 300px;
+}
+
+.card img {
+    background-color: tomato;
+    height: 500px;
+    width: 500px;
+}
